@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 100vh;
+        }
+        .square {
+            width: 45%;
+            height: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .blue-square {
+            background-color: rgb(150, 230, 60);
+        }
+        .orange-square {
+            background-color: rgb(194, 22, 162);
+        }
+        .textbox {
+            width: 80%;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="square blue-square">
+            <input type="text" class="textbox" placeholder="Blue Square">
+        </div>
+        <div class="square orange-square">
+            <input type="text" class="textbox" placeholder="Orange Square">
+        </div>
+    </div>
+</body>
+</html>
